@@ -1,9 +1,9 @@
 //  Nav bar 
 var MenuItems = document.getElementById("MenuItems");
-
 MenuItems.style.maxHeight = "0px";
 var act = document.getElementById("menutoggle");
-act.onclick = function(){
+act.onclick =()=>{
+
     if (MenuItems.style.maxHeight == "0px") {
         MenuItems.style.maxHeight = "200px";
     }
